@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 800px;
+    font-family: cursive;
+    margin: 0px auto;
+}
+
+.nav{
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.nav h1{
+    padding: 10px 30px;
+}
+
+.yourfeed{
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    width: inherit;
+    height: 900px;
+}
+
+.side-profile{
+    border: 5px solid black;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.side-profile img{
+    height: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 25px 0px;
+}
+
+.side-profile a{
+    font-size: 20px;
+    color:cornflowerblue;
+}
+
+.side-profile p{
+    font-size: xx-large;
+    padding: 25px 0px 40px 0px;
+}
+
+.status-box{
+    height: 170px;
+    width: 600px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.top-status{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-status h3{
+    font-size: 1.6rem;
+}
+
+.top-right{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.top-right button{
+    width: 80px;
+    height: 38px;
+    margin-left: 40px;
+    border: 3px solid black;
+    background-color:khaki;
+    box-shadow: 3px 3px black;
+    font-size: 1.5rem;
+}
+
+.bottom-status{
+    margin: 0px 20px;
+    font-size: 1.6rem;
+    display: flex;
+}
+
+.bottom-status a{
+    color: cornflowerblue;
+}
